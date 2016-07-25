@@ -54,6 +54,7 @@ body {
 	border-width: 0px;
 	border-style: solid;
 	clear: both;
+	background-color: #7F7E7E;
 }
 #left {
 	float: left;
@@ -72,7 +73,7 @@ body {
 #right {
 	float: right;
 	height: 60px;
-	width: 480px;
+	width: 300px;
 	border: 3px solid #000000;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }#menu-bar {
@@ -225,6 +226,23 @@ body {
 * html #menu-bar {
   height: 1%;
 }
+.ExampleClass {
+	height: 30px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #989393;
+	-webkit-box-shadow: 0px 0px #FF00BE;
+	box-shadow: 0px 0px #FF00BE;
+	background-color: #489FF0;
+}
+.ExampleClass {
+	height: 30px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #A09999;
+}
 </style>
 </head>
 
@@ -254,7 +272,9 @@ body {
 </ul></div>
   <div id="Maincontent">
     <div id="left">Menu</div>
-    <div id="right">Example Text </div>
+    <div id="right">
+      <div id="ExampleDiv2"></div>
+    </div>
   </div>
   <div id="Footer"></div>
 </div>
